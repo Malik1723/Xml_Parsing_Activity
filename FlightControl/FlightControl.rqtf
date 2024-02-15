@@ -1,0 +1,45 @@
+[Files]
+Names=High Level Requirements,SCADE Suite FCS,SCADE Display PFD,SCADE QTE FCS
+RepositoryTool=Boost
+
+[High Level Requirements]
+Cover1=SCADE Suite FCS,SCADE Display PFD
+Cover1Position=2415@1375
+Cover2=SCADE QTE FCS
+Cover2Position=4075@1375
+GraphicPosition=2830@750
+Type=Word
+Path=..\Requirements\Flight Control Requirements.docx
+AbsolutePath=C:\Users\CHAUDEBO\AnsysDev\Git\Examples\FlightControl\Requirements\Flight Control Requirements.docx
+GVPosition=1000,1000,5520,12480
+
+[SCADE Suite FCS]
+GraphicPosition=3460@1990
+Variable1Name=dateFiles
+Variable1Value=FlightControl.xscade¥FlightControl.ann¥FlightControlSimulation.xscade¥FlightControlSimulation.ann¥Proof.xscade¥Proof.ann¥FlightControl.trace
+Variable2Name=icon
+Variable2Value=../icons/suite/suite.png
+Variable3Name=withImages
+Variable3Value=0
+Type=Scade
+Path=FlightControl.etp
+AbsolutePath=C:\Users\CHAUDEBO\AnsysDev\Git\Examples\FlightControl\FlightControl\FlightControl.etp
+GVPosition=7380,3220,12420,12180
+
+[SCADE Display PFD]
+GraphicPosition=1560@2000
+Variable1Name=dateFiles
+Variable1Value=DemoPFD.sgfx¥..\\..\\..\\SCADE LifeCycle\\ALM Gateway\\bin\\..\\..\\..\\SCADE Display/examples/objects/ADIs/ADI.ogfx¥..\\..\\..\\SCADE LifeCycle\\ALM Gateway\\bin\\..\\..\\..\\SCADE Display/examples/objects/Scales/AirSpeedScale2.ogfx¥..\\..\\..\\SCADE LifeCycle\\ALM Gateway\\bin\\..\\..\\..\\SCADE Display/examples/objects/Scales/AltitudeScale3.ogfx¥DemoPFD.sgfx.trace
+Variable2Name=icon
+Variable2Value=../icons/display/display.png
+Type=Scade
+Path=..\FlightControlDisplay\DemoPFD.etp
+AbsolutePath=C:\Users\CHAUDEBO\AnsysDev\Git\Examples\FlightControl\FlightControlDisplay\DemoPFD.etp
+GVPosition=7360,12420,11120,16700
+
+[SCADE QTE FCS]
+GraphicPosition=5320@2000
+Type=Scade
+Path=..\FlightControl_Test\FlightControl_Test.etp
+AbsolutePath=C:\Users\CHAUDEBO\AnsysDev\Git\Examples\FlightControl\FlightControl_Test\FlightControl_Test.etp
+

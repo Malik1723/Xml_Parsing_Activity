@@ -1,0 +1,32 @@
+
+[STUDIO\TOOLS\CONFIGURATIONS\Code Generator]
+
+"C:\\Users\\Public\\Documents\\ANSYS Inc\\v241\\SCADE Student\\examples\\FlightControl\\FlightControl\\FlightControl.etp"="Standalone Executable" 
+"C:\\Users\\Public\\Documents\\ANSYS Inc\\v241\\SCADE Student\\examples\\FlightControl\\FlightControl_Test\\FlightControl_Test.etp"="Test" 
+
+[STUDIO\TOOLS\CONFIGURATIONS\Metrics and Rules Checker]
+
+"C:\\Users\\Public\\Documents\\ANSYS Inc\\v241\\SCADE Student\\examples\\FlightControl\\FlightControl\\FlightControl.etp"="MetricRule" 
+"C:\\Users\\Public\\Documents\\ANSYS Inc\\v241\\SCADE Student\\examples\\FlightControl\\FlightControl_Test\\FlightControl_Test.etp"="Test" 
+
+[STUDIO\TOOLS\CONFIGURATIONS\Reporter]
+
+"C:\\Users\\Public\\Documents\\ANSYS Inc\\v241\\SCADE Student\\examples\\FlightControl\\FlightControl\\FlightControl.etp"="RTF" 
+"C:\\Users\\Public\\Documents\\ANSYS Inc\\v241\\SCADE Student\\examples\\FlightControl\\FlightControl_Test\\FlightControl_Test.etp"="Test" 
+
+[STUDIO\Workspace]
+
+"ActiveProject"="C:\\Users\\Public\\Documents\\ANSYS Inc\\v241\\SCADE Student\\examples\\FlightControl\\FlightControl\\FlightControl.etp" 
+
+[SCADE\Editor\Shortcut]
+
+"groupNb"="0" 
+
+[SCADE\Editor\Tool]
+
+"UsePolyline"="false" 
+"TransitionKind"="strong" 
+
+[SCADE\Generator\Tool]
+
+"PragmaTarget"="" 

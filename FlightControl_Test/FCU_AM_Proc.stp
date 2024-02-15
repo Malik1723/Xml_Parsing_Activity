@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Procedure oid="BC738F84-4EA2-444F-A1B8-6FBC27DB50C1" name="FCU_AM_Proc" operator="FlightControl::FCU">
+	<testElements>
+		<Record oid="4D98CAA9-F419-4794-8F81-91CE3E50BDB8" name="AlarmManager" description="Record1">
+			<inits>
+				<Scenario oid="FBB957E9-F45E-4394-B776-9A70D8EB4CE4" persistAs="Alias.sss"/>
+				<Scenario oid="71D50566-2459-4BA7-8F15-EBA9C83372D9" persistAs="Init.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="74672957-868C-43FA-8C1D-78322594F908" persistAs="..\TestScenarios\FCU_AlarmManager.sss"/>
+			</scenarios>
+		</Record>
+	</testElements>
+</Procedure>

@@ -1,0 +1,5 @@
+list create tracelist
+set tracelist {
+{!ed/1AB93/37AB/DBC/4649D13A/56AE {{covers {{FCU_02 (High Level Requirements)}}} defines}} {!ed/7615/396/9CC/4642F3D8/5B3C {{covers {{FCU_06 (High Level Requirements)} {FCU_07 (High Level Requirements)}}} defines}} {win_16F4/6525/67C/405AF576/1EAD {{covers {{FCU_01 (High Level Requirements)} {FCU_04 (High Level Requirements)}}} defines}} {win_1757/6525/67C/405AF94D/1F8B {{covers {{FCU_01 (High Level Requirements)}}} defines}} {win_2F8/2D0B/7C0/3EF1747A/7292 {{covers {{FCU_03 (High Level Requirements)} {FCU_05 (High Level Requirements)}}} defines}} {win_BAE/619D/700/408FD359/3F18 {{covers {{FCU_08 (High Level Requirements)}}} defines}}
+}
+

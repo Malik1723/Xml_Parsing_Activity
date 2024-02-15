@@ -1,0 +1,182 @@
+
+[Types]
+Names=Test Scenario,Scade 6 derived
+
+[Test Scenario]
+Tool=Text
+ToolEdit=UltraEdit
+Image=code
+MergeHomonymousEntities=1
+Section1Name=Directory
+Section1Print=$l
+Section1Image=folder
+Section1=^BEGIN_DIRECTORY:(.+):(.+)$
+Section1End=^END_DIRECTORY:.+$
+Section2Name=File
+Section2Parents=Directory
+Section2Print=$l
+Section2=^BEGIN_FILE:(.+):(.+)$
+Section2End=^END_FILE:.+$
+Requirement1Name=Requirement
+Requirement1=^BEGIN_FILE: .+:(.+)\.sss
+Reference1Name=Covers Reference
+Reference1Print=[Covers: $i]
+Reference1=\[Covers[ \t]*:[ \t]*([^\]]*)
+Text1RegularExpression=SSM\:\:(.*)$
+MatchingFileNames=*.sss
+
+[Scade 6 derived]
+Tool=Scade6
+Image=scade
+Variable1Name=withImages
+Variable1Label=With Images
+Variable1Type=boolean
+Section1Name=Project
+Section1Print=$i
+Section1Image=scade_project
+Section1Tree=<Project pathname="$l" name="$i"></Project>
+Section2Name=Model
+Section2Parents=Project
+Section2Image=scade_folder
+Section2Tree=<model name="$i"></model>
+Section3Name=Constant
+Section3Parents=Constants
+Section3Print=$l
+Section3Image=scade_constant
+Section3Tree=<constant oid="$i" name="$l"><comment>$t</comment></constant>
+Section4Name=Type
+Section4Parents=Named Types
+Section4Print=$l
+Section4Image=scade_type
+Section4Tree=<type oid="$i" name="$l"><comment>$t</comment></type>
+Section5Name=Operator
+Section5Parents=Operators
+Section5Print=$l
+Section5Image=scade_node
+Section5Tree=<operator oid="$i" name="$l" imported="false"><comment>$t</comment></operator>
+Section6Name=ImportedOperator
+Section6Parents=Operators
+Section6Print=$l
+Section6Image=scade_importedOperator
+Section6Tree=<operator oid="$i" name="$l" imported="true"><comment>$t</comment></operator>
+Section7Name=Packages
+Section7Parents=Model,Package
+Section7Image=scade_folder
+Section7Tree=<packages name="$i"></packages>
+Section8Name=Package
+Section8Parents=Packages
+Section8Print=$l
+Section8Image=scade_package
+Section8Tree=<package oid="$i" name="$l"><comment>$t</comment></package>
+Section9Name=Constants
+Section9Parents=Model,Package
+Section9Image=scade_folder
+Section9Tree=<constants name="$i"></constants>
+Section10Name=Sensors
+Section10Parents=Model,Package
+Section10Image=scade_folder
+Section10Tree=<sensors name="$i"></sensors>
+Section11Name=Named Types
+Section11Parents=Model,Package
+Section11Image=scade_folder
+Section11Tree=<types name="$i"></types>
+Section12Name=Operators
+Section12Parents=Model,Package
+Section12Image=scade_folder
+Section12Tree=<operators name="$i"></operators>
+Section13Name=sensor
+Section13Parents=Sensors
+Section13Print=$l
+Section13Image=scade_sensor
+Section13Tree=<sensor oid="$i" name="$l"><comment>$t</comment></sensor>
+Section14Name=Interface
+Section14Parents=Operator,ImportedOperator
+Section14Image=scade_folder
+Section14Tree=<interface name="$i"></interface>
+Section15Name=Input
+Section15Parents=Interface
+Section15Print=$l
+Section15Image=scade_input
+Section15Tree=<input oid="$i" name="$l"><comment>$t</comment></input>
+Section16Name=Output
+Section16Parents=Interface
+Section16Print=$l
+Section16Image=scade_output
+Section16Tree=<output oid="$i" name="$l"><comment>$t</comment></output>
+Section17Name=Hidden
+Section17Parents=Interface
+Section17Print=$l
+Section17Image=scade_hidden
+Section17Tree=<hidden oid="$i" name="$l"><comment>$t</comment></hidden>
+Section18Name=Parameter
+Section18Parents=Interface
+Section18Print=$l
+Section18Image=scade_parameter
+Section18Tree=<param oid="$i" name="$l"><comment>$t</comment></param>
+Section19Name=Locals
+Section19Parents=Operator
+Section19Image=scade_folder
+Section19Tree=<locals name="$i"></locals>
+Section20Name=Local
+Section20Parents=Locals
+Section20Print=$l
+Section20Image=scade_local
+Section20Tree=<local oid="$i" name="$l"><comment>$t</comment></local>
+Section21Name=Probe
+Section21Parents=Locals
+Section21Print=$l
+Section21Image=scade_probe
+Section21Tree=<probe oid="$i" name="$l"><comment>$t</comment></probe>
+Section22Name=signal
+Section22Parents=Locals
+Section22Print=$l
+Section22Image=scade_signal
+Section22Tree=<signal oid="$i" name="$l"><comment>$t</comment></signal>
+Section23Name=Text Diagram
+Section23Parents=Operator
+Section23Image=scade_textualDiagram
+Section23Tree=<textDiagram name="$i"></textDiagram>
+Section24Name=Net Diagram
+Section24Parents=Operator
+Section24Image=scade_diagram
+Section24Tree=<netDiagram name="$i"></netDiagram>
+Section25Name=Tree Diagram
+Section25Parents=Operator
+Section25Tree=<treeDiagram name="$i"></treeDiagram>
+Section26Name=State Machine
+Section26Parents=Operator,State
+Section26Print=$l
+Section26Image=scade_stateMachine
+Section26Tree=<stateMachine oid="$i" name="$l"><comment>$t</comment></stateMachine>
+Section27Name=State
+Section27Parents=State Machine
+Section27Print=$l
+Section27Image=scade_state
+Section27Tree=<State oid="$i" name="$l"><comment>$t</comment></State>
+Section28Name=Transition
+Section28Parents=State
+Section28Print=$l
+Section28Image=scade_no_icon
+Section28Tree=<mainTransition oid="$i" name="$l"><display>$t</display></mainTransition>
+Section29Name=Forked Transition
+Section29Parents=Transition
+Section29Image=scade_no_icon
+Section29Tree=<forkedTransition oid="$i" name="$l"><display>$t</display></forkedTransition>
+Reference1Name=Covering
+Reference1Print=Covers $i()
+Reference1Tree=<cover requirement="$i^(.+?) \([^\)]+\)"></cover>
+Attribute1Name=Constant Type
+Attribute1Print=type: $i
+Attribute1Tree=<constant type="$i"></constant>
+Attribute2Name=Constant Value
+Attribute2Print=value: $i
+Attribute2Tree=<constant><value>$i</value></constant>
+Attribute3Name=Type Definition
+Attribute3Print=type: $i
+Attribute3Tree=<type><definition>$i</definition></type>
+Link1Name=Transition source
+Link1Tree=<transition:source ident="$i"></transition:source>
+Link2Name=Transition target
+Link2Tree=<transition:target ident="$i"></transition:target>
+Type=xml
+

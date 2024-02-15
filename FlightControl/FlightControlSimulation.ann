@@ -1,0 +1,46 @@
+Notes-Types { Esterel-Technologies }  DEFINITIONS ::=
+BEGIN
+    TextInFrame ::= SEQUENCE OF { SEQUENCE {
+    annot_object OID,
+    name STRING,
+        note_graphical_information {
+            NT_INCRUSTABLE BOOLEAN
+            {
+            	 NT_DEFAULT_VALUE T },
+            NT_PERMANENT BOOLEAN
+            {
+            	 NT_DEFAULT_VALUE T },
+            NT_MODIFY BOOLEAN
+            {
+            	 NT_DEFAULT_VALUE T },
+            NT_LOCATION STRING
+            {
+            	 NT_DEFAULT_VALUE "RELATIVE" },
+            NT_FONT INTEGER
+            {
+            	 NT_DEFAULT_VALUE 2 },
+            NT_FRAME BOOLEAN
+            {
+            	 NT_DEFAULT_VALUE T },
+            NT_POS_X REAL
+            {
+            	 NT_DEFAULT_VALUE -1 },
+            NT_POS_Y REAL
+            {
+            	 NT_DEFAULT_VALUE -1 }
+        },
+        information {
+            Text TEXT
+            {
+            	 NT_INCRUSTABLE T }
+    } } }
+
+END
+
+Notes-Values { Esterel-Technologies }  DEFINITIONS ::=
+BEGIN
+    TextInFrame ::= {
+        {"!ed/56E/4C97/BF0/468A48B6/3CAA", "TextInFrame_1",T , T , T , "RELATIVE" , 2 , T , 125.000000 , 14.566929 , "This is a simulation environment to verify the FCU in 
+closed loop with a simplified model of a plane." }}
+END
+

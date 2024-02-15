@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scade_req:ReqProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scade_req="http://www.ansys.com/scade/lifecycle/almgateway/scade_req/2" id="_BxSocPATEemSNpI4QBr0rg" name="FlightControl" identifier="C:\AnsysDev\git\common-examples\FlightControl\FlightControl\FlightControl.rqtf">
+  <documents xsi:type="scade_req:ScadeDocument" id="_BxSocfATEemSNpI4QBr0rg" location="">
+    <children xsi:type="scade_req:TraceableElementRef" id="_BxSocvATEemSNpI4QBr0rg" traceableElement="_BxSonfATEemSNpI4QBr0rg"/>
+    <children xsi:type="scade_req:TraceableElementRef" id="_BxSoc_ATEemSNpI4QBr0rg" traceableElement="_BxSooPATEemSNpI4QBr0rg"/>
+    <children xsi:type="scade_req:TraceableElementRef" id="_BxSodPATEemSNpI4QBr0rg" traceableElement="_BxSoovATEemSNpI4QBr0rg"/>
+    <children xsi:type="scade_req:TraceableElementRef" id="_BxSodfATEemSNpI4QBr0rg" traceableElement="_BxSopfATEemSNpI4QBr0rg"/>
+    <children xsi:type="scade_req:TraceableElementRef" id="_BxSodvATEemSNpI4QBr0rg" traceableElement="_BxSoqPATEemSNpI4QBr0rg"/>
+  </documents>
+  <documents xsi:type="scade_req:Specification" id="_BxSod_ATEemSNpI4QBr0rg" name="High Level Requirements    Word" identifier="High Level Requirements">
+    <children xsi:type="scade_req:Section" id="_BxSoePATEemSNpI4QBr0rg" name="2. Requirements" identifier="2." description="">
+      <children xsi:type="scade_req:Section" id="_BxSoefATEemSNpI4QBr0rg" name="Flight Control Unit" identifier="Flight Control Unit" description="">
+        <children xsi:type="scade_req:Section" id="_BxSoevATEemSNpI4QBr0rg" name="Flight Controller" identifier="Flight Controller" description="">
+          <children xsi:type="scade_req:Section" id="_BxSoe_ATEemSNpI4QBr0rg" name="Altitude error contribution" identifier="Altitude error contribution" description="">
+            <children xsi:type="scade_req:TraceableElementRef" id="_BxSofPATEemSNpI4QBr0rg" traceableElement="_BxSonPATEemSNpI4QBr0rg"/>
+            <children xsi:type="scade_req:TraceableElementRef" id="_BxSoffATEemSNpI4QBr0rg" traceableElement="_BxSonvATEemSNpI4QBr0rg"/>
+          </children>
+          <children xsi:type="scade_req:Section" id="_BxSofvATEemSNpI4QBr0rg" name="Speed error contribution" identifier="Speed error contribution" description="">
+            <children xsi:type="scade_req:TraceableElementRef" id="_BxSof_ATEemSNpI4QBr0rg" traceableElement="_BxSon_ATEemSNpI4QBr0rg"/>
+          </children>
+          <children xsi:type="scade_req:Section" id="_BxSogPATEemSNpI4QBr0rg" name="Elevator Command" identifier="Elevator Command" description="">
+            <children xsi:type="scade_req:TraceableElementRef" id="_BxSogfATEemSNpI4QBr0rg" traceableElement="_BxSoofATEemSNpI4QBr0rg"/>
+          </children>
+          <children xsi:type="scade_req:Section" id="_BxSogvATEemSNpI4QBr0rg" name="Throttle Command" identifier="Throttle Command" description="">
+            <children xsi:type="scade_req:TraceableElementRef" id="_BxSog_ATEemSNpI4QBr0rg" traceableElement="_BxSoo_ATEemSNpI4QBr0rg"/>
+          </children>
+        </children>
+        <children xsi:type="scade_req:Section" id="_BxSohPATEemSNpI4QBr0rg" name="Alarm Manager" identifier="Alarm Manager" description="">
+          <children xsi:type="scade_req:Section" id="_BxSohfATEemSNpI4QBr0rg" name="Altitude Alarm" identifier="Altitude Alarm" description="">
+            <children xsi:type="scade_req:TraceableElementRef" id="_BxSohvATEemSNpI4QBr0rg" traceableElement="_BxSopPATEemSNpI4QBr0rg"/>
+          </children>
+          <children xsi:type="scade_req:Section" id="_BxSoh_ATEemSNpI4QBr0rg" name="Speed Alarm" identifier="Speed Alarm" description="">
+            <children xsi:type="scade_req:TraceableElementRef" id="_BxSoiPATEemSNpI4QBr0rg" traceableElement="_BxSopvATEemSNpI4QBr0rg"/>
+          </children>
+        </children>
+        <children xsi:type="scade_req:Section" id="_BxSoifATEemSNpI4QBr0rg" name="Display Logic" identifier="Display Logic" description="">
+          <children xsi:type="scade_req:TraceableElementRef" id="_BxSoivATEemSNpI4QBr0rg" traceableElement="_BxSop_ATEemSNpI4QBr0rg"/>
+        </children>
+      </children>
+      <children xsi:type="scade_req:Section" id="_BxSoi_ATEemSNpI4QBr0rg" name="Primary Flight Display" identifier="Primary Flight Display" description="">
+        <children xsi:type="scade_req:Section" id="_BxSojPATEemSNpI4QBr0rg" name="Display Content" identifier="Display Content" description="">
+          <children xsi:type="scade_req:TraceableElementRef" id="_BxSojfATEemSNpI4QBr0rg" traceableElement="_BxSoqfATEemSNpI4QBr0rg"/>
+          <children xsi:type="scade_req:TraceableElementRef" id="_BxSojvATEemSNpI4QBr0rg" traceableElement="_BxSoqvATEemSNpI4QBr0rg"/>
+          <children xsi:type="scade_req:TraceableElementRef" id="_BxSoj_ATEemSNpI4QBr0rg" traceableElement="_BxSoq_ATEemSNpI4QBr0rg"/>
+        </children>
+        <children xsi:type="scade_req:Section" id="_BxSokPATEemSNpI4QBr0rg" name="Display Colors" identifier="Display Colors" description="">
+          <children xsi:type="scade_req:TraceableElementRef" id="_BxSokfATEemSNpI4QBr0rg" traceableElement="_BxSorPATEemSNpI4QBr0rg"/>
+          <children xsi:type="scade_req:TraceableElementRef" id="_BxSokvATEemSNpI4QBr0rg" traceableElement="_BxSorfATEemSNpI4QBr0rg"/>
+          <children xsi:type="scade_req:TraceableElementRef" id="_BxSok_ATEemSNpI4QBr0rg" traceableElement="_BxSorvATEemSNpI4QBr0rg"/>
+        </children>
+      </children>
+    </children>
+  </documents>
+  <traceabilityLinks id="_BxSolPATEemSNpI4QBr0rg" name="AltContrib" type="Covering:trace" writable="true" source="_BxSonfATEemSNpI4QBr0rg" target="_BxSonPATEemSNpI4QBr0rg"/>
+  <traceabilityLinks id="_BxSolfATEemSNpI4QBr0rg" name="AltContrib" type="Covering:trace" writable="true" source="_BxSonfATEemSNpI4QBr0rg" target="_BxSonvATEemSNpI4QBr0rg"/>
+  <traceabilityLinks id="_BxSolvATEemSNpI4QBr0rg" name="SpeedContrib" type="Covering:trace" writable="true" source="_BxSooPATEemSNpI4QBr0rg" target="_BxSon_ATEemSNpI4QBr0rg"/>
+  <traceabilityLinks id="_BxSol_ATEemSNpI4QBr0rg" name="FlightController" type="Covering:trace" writable="true" source="_BxSoovATEemSNpI4QBr0rg" target="_BxSoofATEemSNpI4QBr0rg"/>
+  <traceabilityLinks id="_BxSomPATEemSNpI4QBr0rg" name="FlightController" type="Covering:trace" writable="true" source="_BxSoovATEemSNpI4QBr0rg" target="_BxSoo_ATEemSNpI4QBr0rg"/>
+  <traceabilityLinks id="_BxSomfATEemSNpI4QBr0rg" name="AlarmManager" type="Covering:trace" writable="true" source="_BxSopfATEemSNpI4QBr0rg" target="_BxSopPATEemSNpI4QBr0rg"/>
+  <traceabilityLinks id="_BxSomvATEemSNpI4QBr0rg" name="AlarmManager" type="Covering:trace" writable="true" source="_BxSopfATEemSNpI4QBr0rg" target="_BxSopvATEemSNpI4QBr0rg"/>
+  <traceabilityLinks id="_BxSom_ATEemSNpI4QBr0rg" name="DisplayLogic" type="Covering:trace" writable="true" source="_BxSoqPATEemSNpI4QBr0rg" target="_BxSop_ATEemSNpI4QBr0rg"/>
+  <traceableElements id="_BxSonPATEemSNpI4QBr0rg" name="FCU_01" identifier="FCU_01" description="Altitude contribution is corrected with a gain altKp."/>
+  <traceableElements id="_BxSonfATEemSNpI4QBr0rg" identifier="win_16F4/6525/67C/405AF576/1EAD"/>
+  <traceableElements id="_BxSonvATEemSNpI4QBr0rg" name="FCU_04" identifier="FCU_04" description="The altitude contribution is centered on 50%"/>
+  <traceableElements id="_BxSon_ATEemSNpI4QBr0rg" name="FCU_02" identifier="FCU_02" description="Speed contribution is regulated with a PI, and transformed into an angle using a lookup table."/>
+  <traceableElements id="_BxSooPATEemSNpI4QBr0rg" identifier="!ed/1AB93/37AB/DBC/4649D13A/56AE"/>
+  <traceableElements id="_BxSoofATEemSNpI4QBr0rg" name="FCU_03" identifier="FCU_03" description="The value of the elevator command is the corrected altitude error contribution minus the corrected speed error contribution."/>
+  <traceableElements id="_BxSoovATEemSNpI4QBr0rg" identifier="win_2F8/2D0B/7C0/3EF1747A/7292"/>
+  <traceableElements id="_BxSoo_ATEemSNpI4QBr0rg" name="FCU_05" identifier="FCU_05" description="The value of the throttle command is the corrected altitude error contribution plus the corrected speed error contribution"/>
+  <traceableElements id="_BxSopPATEemSNpI4QBr0rg" name="FCU_06" identifier="FCU_06" description="Altitude Alarm is triggered if the measured altitude moves away from the altitude set point more than alarmAltThreshold, during more than alarmAltTimer time cycles"/>
+  <traceableElements id="_BxSopfATEemSNpI4QBr0rg" identifier="!ed/7615/396/9CC/4642F3D8/5B3C"/>
+  <traceableElements id="_BxSopvATEemSNpI4QBr0rg" name="FCU_07" identifier="FCU_07" description="Speed Alarm is triggered if the measured speed moves away from the speed set point more than alarmSpeedThreshold, during more than alarmSpeedTimer time cycles"/>
+  <traceableElements id="_BxSop_ATEemSNpI4QBr0rg" name="FCU_08" identifier="FCU_08" description="The FCU shall provide information about the flight: speed, altitude with hundredth, pitch angle, and roll angle."/>
+  <traceableElements id="_BxSoqPATEemSNpI4QBr0rg" identifier="win_BAE/619D/700/408FD359/3F18"/>
+  <traceableElements id="_BxSoqfATEemSNpI4QBr0rg" name="PFD_01" identifier="PFD_01" description="The display shall indicate the Heading value on a scale graduated from 0 to 360."/>
+  <traceableElements id="_BxSoqvATEemSNpI4QBr0rg" name="PFD_02" identifier="PFD_02" description="The display shall indicate the Vertical Speed on the left side."/>
+  <traceableElements id="_BxSoq_ATEemSNpI4QBr0rg" name="PFD_03" identifier="PFD_03" description="The display shall indicate the Altitude on the right side."/>
+  <traceableElements id="_BxSorPATEemSNpI4QBr0rg" name="PFD_04" identifier="PFD_04" description="The general background of the display shall be blackX."/>
+  <traceableElements id="_BxSorfATEemSNpI4QBr0rg" name="PFD_05" identifier="PFD_05" description="The background of the Vertical Speed indicator shall be grey."/>
+  <traceableElements id="_BxSorvATEemSNpI4QBr0rg" name="PFD_06" identifier="PFD_06" description="The background of the Altitude indicator shall be grey."/>
+</scade_req:ReqProject>

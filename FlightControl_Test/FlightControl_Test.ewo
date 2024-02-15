@@ -1,0 +1,13 @@
+
+[STUDIO\TOOLS\CONFIGURATIONS\Reporter]
+
+"C:\\DATAS\\Strategic Operations\\Marketing\\FlightControl\\FlightControl_Test\\FlightControl_Test.etp"="QTE" 
+"C:\\projects\\LaureatGit\\Scade\\examples\\FlightControl\\FlightControl_Test\\FlightControl_Test.etp"="Test" 
+
+[STUDIO\TOOLS\CONFIGURATIONS\Test Tool]
+
+"C:\\DATAS\\Strategic Operations\\Marketing\\FlightControl\\FlightControl_Test\\FlightControl_Test.etp"="QTE" 
+
+[STUDIO\Workspace]
+
+"ActiveProject"="C:\\projects\\LaureatGit\\Scade\\examples\\FlightControl\\FlightControl_Test\\FlightControl_Test.etp" 

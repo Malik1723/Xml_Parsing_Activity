@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scade_req:ReqProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scade_req="http://www.ansys.com/scade/lifecycle/almgateway/scade_req/2" id="_FlXXAPATEemSNpI4QBr0rg" name="FlightControl" identifier="C:\AnsysDev\git\common-examples\FlightControl\FlightControl\FlightControl.rqtf">
+  <documents xsi:type="scade_req:ScadeDocument" id="_FlXXAfATEemSNpI4QBr0rg" location="">
+    <children xsi:type="scade_req:TraceableElementRef" id="_FlXXAvATEemSNpI4QBr0rg" traceableElement="_FlXXKfATEemSNpI4QBr0rg"/>
+    <children xsi:type="scade_req:TraceableElementRef" id="_FlXXA_ATEemSNpI4QBr0rg" traceableElement="_FlXXL_ATEemSNpI4QBr0rg"/>
+  </documents>
+  <documents xsi:type="scade_req:Specification" id="_FlXXBPATEemSNpI4QBr0rg" name="High Level Requirements    Word" identifier="High Level Requirements">
+    <children xsi:type="scade_req:Section" id="_FlXXBfATEemSNpI4QBr0rg" name="2. Requirements" identifier="2." description="">
+      <children xsi:type="scade_req:Section" id="_FlXXBvATEemSNpI4QBr0rg" name="Flight Control Unit" identifier="Flight Control Unit" description="">
+        <children xsi:type="scade_req:Section" id="_FlXXB_ATEemSNpI4QBr0rg" name="Flight Controller" identifier="Flight Controller" description="">
+          <children xsi:type="scade_req:Section" id="_FlXXCPATEemSNpI4QBr0rg" name="Altitude error contribution" identifier="Altitude error contribution" description="">
+            <children xsi:type="scade_req:TraceableElementRef" id="_FlXXCfATEemSNpI4QBr0rg" traceableElement="_FlXXKPATEemSNpI4QBr0rg"/>
+            <children xsi:type="scade_req:TraceableElementRef" id="_FlXXCvATEemSNpI4QBr0rg" traceableElement="_FlXXKvATEemSNpI4QBr0rg"/>
+          </children>
+          <children xsi:type="scade_req:Section" id="_FlXXC_ATEemSNpI4QBr0rg" name="Speed error contribution" identifier="Speed error contribution" description="">
+            <children xsi:type="scade_req:TraceableElementRef" id="_FlXXDPATEemSNpI4QBr0rg" traceableElement="_FlXXK_ATEemSNpI4QBr0rg"/>
+          </children>
+          <children xsi:type="scade_req:Section" id="_FlXXDfATEemSNpI4QBr0rg" name="Elevator Command" identifier="Elevator Command" description="">
+            <children xsi:type="scade_req:TraceableElementRef" id="_FlXXDvATEemSNpI4QBr0rg" traceableElement="_FlXXLPATEemSNpI4QBr0rg"/>
+          </children>
+          <children xsi:type="scade_req:Section" id="_FlXXD_ATEemSNpI4QBr0rg" name="Throttle Command" identifier="Throttle Command" description="">
+            <children xsi:type="scade_req:TraceableElementRef" id="_FlXXEPATEemSNpI4QBr0rg" traceableElement="_FlXXLfATEemSNpI4QBr0rg"/>
+          </children>
+        </children>
+        <children xsi:type="scade_req:Section" id="_FlXXEfATEemSNpI4QBr0rg" name="Alarm Manager" identifier="Alarm Manager" description="">
+          <children xsi:type="scade_req:Section" id="_FlXXEvATEemSNpI4QBr0rg" name="Altitude Alarm" identifier="Altitude Alarm" description="">
+            <children xsi:type="scade_req:TraceableElementRef" id="_FlXXE_ATEemSNpI4QBr0rg" traceableElement="_FlXXLvATEemSNpI4QBr0rg"/>
+          </children>
+          <children xsi:type="scade_req:Section" id="_FlXXFPATEemSNpI4QBr0rg" name="Speed Alarm" identifier="Speed Alarm" description="">
+            <children xsi:type="scade_req:TraceableElementRef" id="_FlXXFfATEemSNpI4QBr0rg" traceableElement="_FlXXMPATEemSNpI4QBr0rg"/>
+          </children>
+        </children>
+        <children xsi:type="scade_req:Section" id="_FlXXFvATEemSNpI4QBr0rg" name="Display Logic" identifier="Display Logic" description="">
+          <children xsi:type="scade_req:TraceableElementRef" id="_FlXXF_ATEemSNpI4QBr0rg" traceableElement="_FlXXMfATEemSNpI4QBr0rg"/>
+        </children>
+      </children>
+      <children xsi:type="scade_req:Section" id="_FlXXGPATEemSNpI4QBr0rg" name="Primary Flight Display" identifier="Primary Flight Display" description="">
+        <children xsi:type="scade_req:Section" id="_FlXXGfATEemSNpI4QBr0rg" name="Display Content" identifier="Display Content" description="">
+          <children xsi:type="scade_req:TraceableElementRef" id="_FlXXGvATEemSNpI4QBr0rg" traceableElement="_FlXXMvATEemSNpI4QBr0rg"/>
+          <children xsi:type="scade_req:TraceableElementRef" id="_FlXXG_ATEemSNpI4QBr0rg" traceableElement="_FlXXM_ATEemSNpI4QBr0rg"/>
+          <children xsi:type="scade_req:TraceableElementRef" id="_FlXXHPATEemSNpI4QBr0rg" traceableElement="_FlXXNPATEemSNpI4QBr0rg"/>
+        </children>
+        <children xsi:type="scade_req:Section" id="_FlXXHfATEemSNpI4QBr0rg" name="Display Colors" identifier="Display Colors" description="">
+          <children xsi:type="scade_req:TraceableElementRef" id="_FlXXHvATEemSNpI4QBr0rg" traceableElement="_FlXXNfATEemSNpI4QBr0rg"/>
+          <children xsi:type="scade_req:TraceableElementRef" id="_FlXXH_ATEemSNpI4QBr0rg" traceableElement="_FlXXNvATEemSNpI4QBr0rg"/>
+          <children xsi:type="scade_req:TraceableElementRef" id="_FlXXIPATEemSNpI4QBr0rg" traceableElement="_FlXXN_ATEemSNpI4QBr0rg"/>
+        </children>
+      </children>
+    </children>
+  </documents>
+  <traceabilityLinks id="_FlXXIfATEemSNpI4QBr0rg" name="FCU_FlightController.sss" type="Covering:trace" writable="true" source="_FlXXKfATEemSNpI4QBr0rg" target="_FlXXKPATEemSNpI4QBr0rg"/>
+  <traceabilityLinks id="_FlXXIvATEemSNpI4QBr0rg" name="FCU_FlightController.sss" type="Covering:trace" writable="true" source="_FlXXKfATEemSNpI4QBr0rg" target="_FlXXKvATEemSNpI4QBr0rg"/>
+  <traceabilityLinks id="_FlXXI_ATEemSNpI4QBr0rg" name="FCU_FlightController.sss" type="Covering:trace" writable="true" source="_FlXXKfATEemSNpI4QBr0rg" target="_FlXXK_ATEemSNpI4QBr0rg"/>
+  <traceabilityLinks id="_FlXXJPATEemSNpI4QBr0rg" name="FCU_FlightController.sss" type="Covering:trace" writable="true" source="_FlXXKfATEemSNpI4QBr0rg" target="_FlXXLPATEemSNpI4QBr0rg"/>
+  <traceabilityLinks id="_FlXXJfATEemSNpI4QBr0rg" name="FCU_FlightController.sss" type="Covering:trace" writable="true" source="_FlXXKfATEemSNpI4QBr0rg" target="_FlXXLfATEemSNpI4QBr0rg"/>
+  <traceabilityLinks id="_FlXXJvATEemSNpI4QBr0rg" name="FCU_AlarmManager.sss" type="Covering:trace" writable="true" source="_FlXXL_ATEemSNpI4QBr0rg" target="_FlXXLvATEemSNpI4QBr0rg"/>
+  <traceabilityLinks id="_FlXXJ_ATEemSNpI4QBr0rg" name="FCU_AlarmManager.sss" type="Covering:trace" writable="true" source="_FlXXL_ATEemSNpI4QBr0rg" target="_FlXXMPATEemSNpI4QBr0rg"/>
+  <traceableElements id="_FlXXKPATEemSNpI4QBr0rg" name="FCU_01" identifier="FCU_01" description="Altitude contribution is corrected with a gain altKp."/>
+  <traceableElements id="_FlXXKfATEemSNpI4QBr0rg" identifier="14001195-AC53-4166-AA68-AEDDD150BA14"/>
+  <traceableElements id="_FlXXKvATEemSNpI4QBr0rg" name="FCU_04" identifier="FCU_04" description="The altitude contribution is centered on 50%"/>
+  <traceableElements id="_FlXXK_ATEemSNpI4QBr0rg" name="FCU_02" identifier="FCU_02" description="Speed contribution is regulated with a PI, and transformed into an angle using a lookup table."/>
+  <traceableElements id="_FlXXLPATEemSNpI4QBr0rg" name="FCU_03" identifier="FCU_03" description="The value of the elevator command is the corrected altitude error contribution minus the corrected speed error contribution."/>
+  <traceableElements id="_FlXXLfATEemSNpI4QBr0rg" name="FCU_05" identifier="FCU_05" description="The value of the throttle command is the corrected altitude error contribution plus the corrected speed error contribution"/>
+  <traceableElements id="_FlXXLvATEemSNpI4QBr0rg" name="FCU_06" identifier="FCU_06" description="Altitude Alarm is triggered if the measured altitude moves away from the altitude set point more than alarmAltThreshold, during more than alarmAltTimer time cycles"/>
+  <traceableElements id="_FlXXL_ATEemSNpI4QBr0rg" identifier="74672957-868C-43FA-8C1D-78322594F908"/>
+  <traceableElements id="_FlXXMPATEemSNpI4QBr0rg" name="FCU_07" identifier="FCU_07" description="Speed Alarm is triggered if the measured speed moves away from the speed set point more than alarmSpeedThreshold, during more than alarmSpeedTimer time cycles"/>
+  <traceableElements id="_FlXXMfATEemSNpI4QBr0rg" name="FCU_08" identifier="FCU_08" description="The FCU shall provide information about the flight: speed, altitude with hundredth, pitch angle, and roll angle."/>
+  <traceableElements id="_FlXXMvATEemSNpI4QBr0rg" name="PFD_01" identifier="PFD_01" description="The display shall indicate the Heading value on a scale graduated from 0 to 360."/>
+  <traceableElements id="_FlXXM_ATEemSNpI4QBr0rg" name="PFD_02" identifier="PFD_02" description="The display shall indicate the Vertical Speed on the left side."/>
+  <traceableElements id="_FlXXNPATEemSNpI4QBr0rg" name="PFD_03" identifier="PFD_03" description="The display shall indicate the Altitude on the right side."/>
+  <traceableElements id="_FlXXNfATEemSNpI4QBr0rg" name="PFD_04" identifier="PFD_04" description="The general background of the display shall be blackX."/>
+  <traceableElements id="_FlXXNvATEemSNpI4QBr0rg" name="PFD_05" identifier="PFD_05" description="The background of the Vertical Speed indicator shall be grey."/>
+  <traceableElements id="_FlXXN_ATEemSNpI4QBr0rg" name="PFD_06" identifier="PFD_06" description="The background of the Altitude indicator shall be grey."/>
+</scade_req:ReqProject>

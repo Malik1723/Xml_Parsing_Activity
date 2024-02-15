@@ -1,0 +1,74 @@
+Notes-Types { Esterel-Technologies }  DEFINITIONS ::=
+BEGIN
+    DesignElement ::= SEQUENCE OF { SEQUENCE {
+    annot_object OID,
+    name STRING,
+        information {
+            Category ENUM
+            {
+            	 NT_ENUM_VALUES {"Low Level Requirement", "Architecture", "Derived Low Level Requirement"},
+            	 NT_DEFAULT_VALUE "Low Level Requirement" ,
+            	 NT_FIELD_WIDTH 20 },
+            Description TEXT
+            {
+            	 NT_FIELD_HEIGHT 20 ,
+            	 NT_FIELD_WIDTH 60 }
+    } } }
+
+    TextInFrame ::= SEQUENCE OF { SEQUENCE {
+    annot_object OID,
+    name STRING,
+        note_graphical_information {
+            NT_INCRUSTABLE BOOLEAN
+            {
+            	 NT_DEFAULT_VALUE T },
+            NT_PERMANENT BOOLEAN
+            {
+            	 NT_DEFAULT_VALUE T },
+            NT_MODIFY BOOLEAN
+            {
+            	 NT_DEFAULT_VALUE T },
+            NT_LOCATION STRING
+            {
+            	 NT_DEFAULT_VALUE "RELATIVE" },
+            NT_FONT INTEGER
+            {
+            	 NT_DEFAULT_VALUE 2 },
+            NT_FRAME BOOLEAN
+            {
+            	 NT_DEFAULT_VALUE T },
+            NT_POS_X REAL
+            {
+            	 NT_DEFAULT_VALUE -1 },
+            NT_POS_Y REAL
+            {
+            	 NT_DEFAULT_VALUE -1 }
+        },
+        information {
+            Text TEXT
+            {
+            	 NT_INCRUSTABLE T }
+    } } }
+
+END
+
+Notes-Values { Esterel-Technologies }  DEFINITIONS ::=
+BEGIN
+    DesignElement ::= {
+        {"!ed/a3bf/77BE/2BE8/5b59b08f6af9", "DesignElement_1","Low Level Requirement" , "" },
+        {"!ed/a3c0/77BE/2BE8/5b59b0c8277e", "DesignElement_1","Low Level Requirement" , "" },
+        {"!ed/a3b9/77BE/2BE8/5b59969635a5", "DesignElement_1","Low Level Requirement" , "" },
+        {"!ed/a3be/77BE/2BE8/5b599c766d17", "DesignElement_1","Low Level Requirement" , "" },
+        {"!ed/a3b5/77BE/2BE8/5b59938d70d8", "DesignElement_1","Low Level Requirement" , "" },
+        {"!ed/a3b6/77BE/2BE8/5b5993c779a", "DesignElement_1","Low Level Requirement" , "" },
+        {"!ed/a3c1/77BE/2BE8/5b59b1cec80", "DesignElement_1","Low Level Requirement" , "" }}
+    TextInFrame ::= {
+        {"!ed/4C0/4C97/BF0/468A48B6/182E", "TextInFrame_1",T , T , T , "RELATIVE" , 2 , T , 195.826767 , 296.889771 , "Speed and Altitude regulation." },
+        {"!ed/641/4C97/BF0/468A48B6/42E2", "TextInFrame_2",T , T , T , "RELATIVE" , 2 , T , 797.519714 , 296.653534 , "Simulated Roll" },
+        {"!ed/641/4C97/BF0/468A48B6/42E2", "TextInFrame_1",T , T , T , "RELATIVE" , 2 , T , 791.653564 , 30.826773 , "Calculated Pitch" },
+        {"!ed/776/4C97/BF0/468A48B6/4777", "TextInFrame_1",T , T , T , "RELATIVE" , 2 , T , 144.803146 , 403.110229 , "Prepare values to display on the PFD." },
+        {"!ed/855/4C97/BF0/468A48B6/1DFE", "TextInFrame_1",T , T , T , "RELATIVE" , 2 , T , 93.740158 , 442.716522 , "Convert units from the MCU panel.
+Set setpoints value for speed and altitude." },
+        {"!ed/A0C/4C97/BF0/468A48B6/2AF8", "TextInFrame_1",T , T , T , "RELATIVE" , 2 , T , 19.803150 , 273.976379 , "Detects regulation errors on a time window for speed and altitude." }}
+END
+

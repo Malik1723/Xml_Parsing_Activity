@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<traceability version="1.3">
+    <object id="74672957-868C-43FA-8C1D-78322594F908">
+        <requirement id="FCU_06"/>
+        <requirement id="FCU_07"/>
+    </object>
+    <object id="14001195-AC53-4166-AA68-AEDDD150BA14">
+        <requirement id="FCU_01"/>
+        <requirement id="FCU_02"/>
+        <requirement id="FCU_03"/>
+        <requirement id="FCU_04"/>
+        <requirement id="FCU_05"/>
+    </object>
+</traceability>

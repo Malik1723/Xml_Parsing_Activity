@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<traceability version="1.3">
+    <object id="win_2F8/2D0B/7C0/3EF1747A/7292">
+        <requirement id="FCU_03"/>
+        <requirement id="FCU_05"/>
+    </object>
+    <object id="win_16F4/6525/67C/405AF576/1EAD">
+        <requirement id="FCU_01"/>
+        <requirement id="FCU_04"/>
+    </object>
+    <object id="win_BAE/619D/700/408FD359/3F18">
+        <requirement id="FCU_08"/>
+    </object>
+    <object id="!ed/7615/396/9CC/4642F3D8/5B3C">
+        <requirement id="FCU_06"/>
+        <requirement id="FCU_07"/>
+    </object>
+    <object id="!ed/1AB93/37AB/DBC/4649D13A/56AE">
+        <requirement id="FCU_02"/>
+    </object>
+</traceability>
