@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MappingFile>
+	 	<operatorMappings>
+		<OperatorMapping name="FlightControlSimulation::World" oid="win_9D81/3619/668/4022434C/17C8">
+			<mappingItems>
+				<MappingItem>
+					<output>
+						<Variable name="SDY_Pitch_Angle" type="real" oid="win_7BCA/3554/604/409213B9/5D7E" instancepath="FlightControlSimulation::World/"/>
+					</output>
+					<inputs>
+						<Plug name="PN_PITCH_ANGLE" type="real" pathname="..\FlightControlDisplay\DemoPFD.sgfx" layer="symbology_layer"/>
+						<Plug name="PITCH" type="real" pathname="ControlPanel.rgfx" layer="control_panel"/>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="SDY_Roll_Angle" type="real" oid="win_7BCC/3554/604/409213B9/1C3F" instancepath="FlightControlSimulation::World/"/>
+					</output>
+					<inputs>
+						<Plug name="PN_ROLL_ANGLE" type="real" pathname="..\FlightControlDisplay\DemoPFD.sgfx" layer="symbology_layer"/>
+						<Plug name="ROLL" type="real" pathname="ControlPanel.rgfx" layer="control_panel"/>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="SDY_Airspeed" type="real" oid="win_7BC8/3554/604/409213B9/6D25" instancepath="FlightControlSimulation::World/"/>
+					</output>
+					<inputs>
+						<Plug name="PN_AIRSPEED" type="real" pathname="..\FlightControlDisplay\DemoPFD.sgfx" layer="symbology_layer"/>
+						<Plug name="AIRSPEED" type="real" pathname="ControlPanel.rgfx" layer="control_panel"/>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="SDY_Alti" type="real" oid="win_7BCE/3554/604/409213B9/581D" instancepath="FlightControlSimulation::World/"/>
+					</output>
+					<inputs>
+						<Plug name="PN_ALTI" type="real" pathname="..\FlightControlDisplay\DemoPFD.sgfx" layer="symbology_layer"/>
+						<Plug name="ALTITUDE" type="real" pathname="ControlPanel.rgfx" layer="control_panel"/>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Plug name="MCP_Speed" type="real" pathname="ControlPanel.rgfx" layer="control_panel"/>
+					</output>
+					<inputs>
+						<Variable name="MCP_Speed" type="real" oid="win_9D94/3619/668/402243D1/B2E" instancepath="FlightControlSimulation::World/"/>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Plug name="MCP_Altitude" type="real" pathname="ControlPanel.rgfx" layer="control_panel"/>
+					</output>
+					<inputs>
+						<Variable name="MCP_Altitude" type="real" oid="win_9D98/3619/668/40224412/57C8" instancepath="FlightControlSimulation::World/"/>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Plug name="MCP_AutoPilot" type="bool" pathname="ControlPanel.rgfx" layer="control_panel"/>
+					</output>
+					<inputs>
+						<Variable name="MCP_AutoPilot" type="bool" oid="win_BB1/619D/700/408FD3C4/4B49" instancepath="FlightControlSimulation::World/"/>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Plug name="MCP_UnlockRoll" type="bool" pathname="ControlPanel.rgfx" layer="control_panel"/>
+					</output>
+					<inputs>
+						<Variable name="MCP_UnlockRoll" type="bool" oid="!ed/4b45/7085/E80/4c17555b72a1" instancepath="FlightControlSimulation::World/"/>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="JV_Alti_Alarm" type="bool" oid="win_8832/3554/604/4092192D/47A" instancepath="FlightControlSimulation::World/"/>
+					</output>
+					<inputs>
+						<Plug name="JV_Alti_Alarm" type="bool" pathname="ControlPanel.rgfx" layer="control_panel"/>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="JV_Speed_Alarm" type="bool" oid="win_8834/3554/604/40921930/7993" instancepath="FlightControlSimulation::World/"/>
+					</output>
+					<inputs>
+						<Plug name="JV_Speed_Alarm" type="bool" pathname="ControlPanel.rgfx" layer="control_panel"/>
+					</inputs>
+				</MappingItem>
+			</mappingItems>
+		</OperatorMapping>
+	</operatorMappings>
+</MappingFile>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Procedure oid="BD869344-97E9-42F2-98FF-5A1801298A87" name="FCU_FC_Proc" operator="FlightControl::FCU">
+	<testElements>
+		<Record oid="097023A8-4EE3-4598-A306-959657668CA1" name="FlightControler" description="FlightControler">
+			<inits>
+				<Scenario oid="81B6E784-4B0F-4B53-B719-E6E170D9C52B" persistAs="Alias.sss"/>
+				<Scenario oid="F76EABF1-3C5F-40BD-A109-8CE0C815A58D" persistAs="InitFalse.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="14001195-AC53-4166-AA68-AEDDD150BA14" persistAs="..\TestScenarios\FCU_FlightController.sss"/>
+			</scenarios>
+		</Record>
+	</testElements>
+</Procedure>

@@ -1,0 +1,60 @@
+#
+# FCU, Flight Controller Test scenarios
+#
+#
+
+
+SSM::cycle 1
+
+#
+# Altitude error correction
+# [Covers: FCU_01]
+#
+SSM::set AutoPilot true
+# If target Altitude lower to actual Altitude throttleCmd = 0.0 elevatorCmd < 0.0 (-0.5136 computed in a Model)
+SSM::set altitude 400.0
+SSM::check throttleCmd 0.0  sustain=2 real=0.1e-3
+SSM::check elevatorCmd -0.5136 sustain=2 real=0.1e-3
+SSM::cycle 2
+
+# If target Altitude highter to actual Altitude throttleCmd = elevatorCmd > 0.0 (0.9864 computed in a Model)
+SSM::set altitude 300.0
+SSM::check throttleCmd 0.9864  sustain=2 real=0.1e-3
+SSM::check elevatorCmd 0.9864 sustain=2 real=0.1e-3
+SSM::cycle 2
+
+# If target Altitude equals to actual Altitude throttleCmd = elevatorCmd = 0.0
+SSM::set altitude 365.76
+SSM::check throttleCmd 0.0  real=0.1e-3
+SSM::check elevatorCmd 0.0 real=0.1e-3
+SSM::cycle 1
+
+#
+# Speed error correction
+# [Covers: FCU_02]
+#
+SSM::set speed 650.0
+SSM::check throttleCmd 0.0  sustain=2 real=0.1e-3
+SSM::check elevatorCmd 0.4256 real=0.1e-3
+SSM::cycle 2
+SSM::check throttleCmd 0.2682  real=0.1e-3
+SSM::check elevatorCmd -0.2682 real=0.1e-3
+SSM::set speed 550.0
+SSM::cycle 2
+
+#
+# Throttle, Elevator commands
+# [Covers: FCU_03]
+# [Covers: FCU_04]
+# [Covers: FCU_05]
+#
+SSM::set speed 592.64
+SSM::set altitude 365.76
+SSM::check throttleCmd 0.0  real=0.1e-3
+SSM::check elevatorCmd 0.01236 real=0.1e-4
+SSM::cycle 1
+SSM::set speed 550.0
+SSM::set altitude 380.0
+SSM::check throttleCmd 0.0904  real=0.1e-3
+SSM::check elevatorCmd -0.5176 real=0.1e-3
+SSM::cycle 1

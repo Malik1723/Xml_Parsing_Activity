@@ -1,0 +1,40 @@
+#
+# FCU, Alarm Manager Test scenarios
+#
+#
+
+#
+# Altitude alarm
+# [Covers: FCU_06]
+#
+# Check JV_Alti_Alarm set to false at init
+SSM::check JV_Alti_Alarm false
+SSM::cycle 1
+
+SSM::set altitude 600.0
+SSM::set speed 300.0
+SSM::cycle 18
+# Check JV_Alti_Alarm set to true
+SSM::check JV_Alti_Alarm true
+SSM::cycle 1
+
+SSM::set altitude 365.76
+# Check JV_Alti_Alarm set to false
+SSM::check JV_Alti_Alarm false
+SSM::cycle 1
+
+
+#
+# Speed alarm
+# [Covers: FCU_07]
+#
+SSM::set speed 300.0
+SSM::cycle 4
+# Check JV_Speed_Alarm set to true
+SSM::check JV_Speed_Alarm true
+SSM::cycle 1
+
+SSM::set speed 592.64
+SSM::cycle 1
+# Check JV_Speed_Alarm set to true
+SSM::check JV_Speed_Alarm false

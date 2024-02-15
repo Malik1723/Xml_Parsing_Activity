@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project id="1" oid_count="80" defaultConfiguration="14">
+	<props>
+		<Prop id="3" name="@STUDIO:PRODUCT">
+			<value>QTE</value>
+		</Prop>
+		<Prop id="6" name="@STUDIO:TITLE">
+			<value>&lt;title&gt;</value>
+		</Prop>
+		<Prop id="7" name="@STUDIO:SUBTITLE">
+			<value>&lt;subtitle&gt;</value>
+		</Prop>
+		<Prop id="8" name="@STUDIO:DESCRIPTION">
+			<value>&lt;description&gt;</value>
+		</Prop>
+		<Prop id="9" name="@STUDIO:AUTHORS">
+			<value>&lt;authors&gt;</value>
+		</Prop>
+		<Prop id="10" name="@STUDIO:COMPAGNY">
+			<value>&lt;company&gt;</value>
+		</Prop>
+		<Prop id="11" name="@STUDIO:DATE">
+			<value>&lt;date&gt;</value>
+		</Prop>
+		<Prop id="12" name="@STUDIO:INDEX">
+			<value>&lt;index&gt;</value>
+		</Prop>
+		<Prop id="13" name="@STUDIO:REFERENCE">
+			<value>&lt;reference&gt;</value>
+		</Prop>
+		<Prop id="15" name="@STUDIO:TOOLCONF">
+			<value>QTE</value>
+			<value>14</value>
+		</Prop>
+		<Prop id="17" name="@QTE:SOURCE_MODEL">
+			<value>..\FlightControl\FlightControl.etp</value>
+		</Prop>
+		<Prop id="18" name="@STUDIO:TOOLCONF">
+			<value>Code Generator</value>
+			<value>14</value>
+		</Prop>
+		<Prop id="19" name="@STUDIO:TOOLCONF">
+			<value>Design Verifier</value>
+			<value>14</value>
+		</Prop>
+		<Prop id="20" name="@STUDIO:TOOLCONF">
+			<value>Dashboard</value>
+			<value>14</value>
+		</Prop>
+		<Prop id="21" name="@STUDIO:TOOLCONF">
+			<value>Reporter</value>
+			<value>14</value>
+			<value>76</value>
+		</Prop>
+		<Prop id="22" name="@STUDIO:TOOLCONF">
+			<value>DiffAnalyzer</value>
+			<value>14</value>
+		</Prop>
+		<Prop id="23" name="@STUDIO:TOOLCONF">
+			<value>Instrumenter</value>
+			<value>14</value>
+		</Prop>
+		<Prop id="24" name="@STUDIO:TOOLCONF">
+			<value>Test Tool</value>
+			<value>14</value>
+		</Prop>
+		<Prop id="29" name="@QTE:TEE_CONF">
+			<value>Simulation</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="31" name="@QTE:THG_CONF">
+			<value>KCG</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="33" name="@STUDIO:TOOLCONF">
+			<value>Timing and Stack Analysis Tools</value>
+			<value>14</value>
+		</Prop>
+		<Prop id="35" name="@QTE:USE_PROCEDURES_LIST">
+			<value>true</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="45" name="@QTE:TARGET">
+			<value>RTRT</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="46" name="@STUDIO:TOOLCONF">
+			<value>Synchronization</value>
+			<value>14</value>
+		</Prop>
+		<Prop id="58" name="@QTE:CLCM_COVERAGE_CRITERIA">
+			<value>DC</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="59" name="@QTE:CLCM_CONF">
+			<value>KCG</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="60" name="@QTE:SELECTED_PROCEDURES">
+			<value>FCU_FC_Proc</value>
+			<value>FCU_AM_Proc</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="70" name="@STUDIO:TOOLCONF">
+			<value>Import/Export</value>
+			<value>14</value>
+		</Prop>
+		<Prop id="71" name="@QTE:COVERAGE_TOOL_VERSION">
+			<value>2</value>
+		</Prop>
+		<Prop id="72" name="@QTE:MC_INSTRUMENTED_NODES">
+			<value>FlightControl::AlarmManager</value>
+			<value>FlightControl::AlarmManagerSingle</value>
+			<value>FlightControl::AltContrib</value>
+			<value>FlightControl::ComputePitchRoll</value>
+			<value>FlightControl::DetectRegulationError</value>
+			<value>FlightControl::DisplayLogic</value>
+			<value>FlightControl::FCU</value>
+			<value>FlightControl::FlightController</value>
+			<value>FlightControl::PIRegulator</value>
+			<value>FlightControl::SpeedContrib</value>
+			<value>FlightControl::UnitConvert</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="73" name="@QTE:MC_INSTRUMENTATION_MODE">
+			<value>1</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="74" name="@QTE:MC_CONF">
+			<value>Coverage</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="75" name="@REPORTER:SCRIPT">
+			<value>Reporter\ScadeTestReport.tcl</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="77" name="@REPORTER:SCRIPT">
+			<value>Reporter\ScadeTestQualifiedReport.tcl</value>
+			<configuration>76</configuration>
+		</Prop>
+		<Prop id="78" name="@REPORTER:FORMAT">
+			<value>rtf</value>
+			<configuration>76</configuration>
+		</Prop>
+		<Prop id="79" name="@REPORTER:DOCUMENT">
+			<value>FlightControl_Test.rtf</value>
+			<configuration>76</configuration>
+		</Prop>
+		<Prop id="80" name="@REPORTER:AllowRowToBreak">
+			<value>true</value>
+			<configuration>76</configuration>
+		</Prop>
+	</props>
+	<roots>
+		<Folder id="4" extensions="etp;vsp" name="Model">
+			<elements>
+				<FileRef id="16" persistAs="..\FlightControl\FlightControl.etp"/>
+			</elements>
+		</Folder>
+		<Folder id="5" extensions="stp" name="Tests">
+			<elements>
+				<FileRef id="26" persistAs="FCU_AM_Proc.stp"/>
+				<FileRef id="28" persistAs="FCU_FC_Proc.stp"/>
+			</elements>
+		</Folder>
+	</roots>
+	<configurations>
+		<Configuration id="14" name="Test"/>
+		<Configuration id="76" name="Cert. Reporter"/>
+	</configurations>
+</Project>

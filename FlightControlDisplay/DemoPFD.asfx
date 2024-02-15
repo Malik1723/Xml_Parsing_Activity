@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?dom version="R16" ?>
+
+<?scade_release version="R16.2" ?>
+
+<animation>
+    <rule enabled="true" kind="triangular" maximum_value="200.0" minimum_value="0.0" name="PN_AIRSPEED" oid="b6309698-e41b-46e8-8e9b-f9550b909d45" step="1.0"/>
+    <rule enabled="true" kind="triangular" maximum_value="600.0" minimum_value="0.0" name="PN_ALTI" oid="805f569c-21e5-4093-8628-69d9fb55d543" step="2.0"/>
+    <rule enabled="true" kind="triangular" maximum_value="15.0" minimum_value="-15.0" name="PN_PITCH_ANGLE" oid="7e424e04-d956-4abe-97e7-16f0c41c89ac" step="0.2"/>
+    <rule enabled="true" kind="triangular" maximum_value="10.0" minimum_value="-10.0" name="PN_ROLL_ANGLE" oid="01499d2e-a447-410e-bd67-e6b3d236aa09" step="0.3"/>
+</animation>
+
+<!-- crc32 : 3726935475 -->
+

@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project id="1" oid_count="565" defaultConfiguration="252">
+	<props>
+		<Prop id="3" name="@STUDIO:PRODUCT">
+			<value>SC</value>
+		</Prop>
+		<Prop id="5" name="@STUDIO:DESCRIPTION">
+			<value>This demo shows a simple flight control system, with a SCADE Display connection.</value>
+		</Prop>
+		<Prop id="13" name="@SCADE:CHECKED">
+			<value>false</value>
+		</Prop>
+		<Prop id="14" name="@SCADE:SAVEVERSION">
+			<value>SCADE65</value>
+		</Prop>
+		<Prop id="15" name="@SCADE:SAVENOTESASCOMMENTS">
+			<value>f</value>
+		</Prop>
+		<Prop id="18" name="@STUDIO:TOOLCONF">
+			<value>Code Generator - Simulator</value>
+			<value>42</value>
+			<value>82</value>
+			<value>279</value>
+			<value>299</value>
+			<value>364</value>
+			<value>431</value>
+			<value>463</value>
+			<value>545</value>
+		</Prop>
+		<Prop id="19" name="@STUDIO:TOOLCONF">
+			<value>Reporter</value>
+			<value>232</value>
+			<value>252</value>
+			<value>510</value>
+		</Prop>
+		<Prop id="34" name="@STUDIO:TOOLCONF">
+			<value>Checker</value>
+			<value>42</value>
+			<value>82</value>
+			<value>232</value>
+			<value>252</value>
+			<value>279</value>
+			<value>299</value>
+			<value>364</value>
+			<value>431</value>
+			<value>463</value>
+			<value>510</value>
+			<value>545</value>
+		</Prop>
+		<Prop id="35" name="@STUDIO:TOOLCONF">
+			<value>Instrumenter</value>
+			<value>82</value>
+		</Prop>
+		<Prop id="39" name="@STUDIO:TOOLCONF">
+			<value>Design Verifier</value>
+			<value>42</value>
+			<value>82</value>
+			<value>232</value>
+			<value>252</value>
+			<value>279</value>
+			<value>299</value>
+			<value>364</value>
+			<value>431</value>
+			<value>463</value>
+			<value>510</value>
+			<value>545</value>
+		</Prop>
+		<Prop id="43" name="@SSMGUI:GUIEXTFILE">
+			<value></value>
+			<configuration>42</configuration>
+		</Prop>
+		<Prop id="44" name="@GENERATOR:CHECK_MODE">
+			<value>-1</value>
+			<configuration>42</configuration>
+		</Prop>
+		<Prop id="45" name="@GENERATOR:GENERATOR">
+			<value>C QUAL661</value>
+			<configuration>42</configuration>
+		</Prop>
+		<Prop id="50" name="@GENERATOR:DEBUG">
+			<value>true</value>
+			<configuration>42</configuration>
+		</Prop>
+		<Prop id="67" name="@STUDIO:TITLE">
+			<value>Flight Control Demo</value>
+		</Prop>
+		<Prop id="68" name="@STUDIO:AUTHORS">
+			<value>Design Team</value>
+		</Prop>
+		<Prop id="69" name="@STUDIO:COMPAGNY">
+			<value>ANSYS</value>
+		</Prop>
+		<Prop id="70" name="@STUDIO:DATE">
+			<value>15/04/2008</value>
+		</Prop>
+		<Prop id="71" name="@SCADE:SEMFILE">
+			<value>.\FlightControl.err</value>
+		</Prop>
+		<Prop id="72" name="@SCADE:VERIFYTYPE">
+			<value>0</value>
+		</Prop>
+		<Prop id="73" name="@STUDIO:REFERENCE">
+			<value>DEMOFC 1.1</value>
+		</Prop>
+		<Prop id="74" name="@GENERATOR:ROOTNODE">
+			<value>FlightControlSimulation::World</value>
+			<configuration>42</configuration>
+		</Prop>
+		<Prop id="83" name="@GENERATOR:ROOTNODE">
+			<value>FlightControl::FCU</value>
+			<configuration>82</configuration>
+		</Prop>
+		<Prop id="85" name="@GENERATOR:GENERATOR">
+			<value>C QUAL661</value>
+			<configuration>82</configuration>
+		</Prop>
+		<Prop id="86" name="@GENERATOR:CHECK_MODE">
+			<value>-1</value>
+			<configuration>82</configuration>
+		</Prop>
+		<Prop id="87" name="@SSMGUI:GUIEXTFILE">
+			<value></value>
+			<configuration>82</configuration>
+		</Prop>
+		<Prop id="193" name="@SCADE:NOTEFILE">
+			<value>$(SCADE)\lib\DefaultAty.aty</value>
+		</Prop>
+		<Prop id="298" name="@SCADE:DEFAULTFILE">
+			<value>ABC_N.xscade</value>
+		</Prop>
+		<Prop id="195" name="@SCADE:NEWVARIABLESYMBOLS">
+			<value>true</value>
+		</Prop>
+		<Prop id="211" name="@GENERATOR:USER_CONFIG">
+			<value>$(TargetDir)\user_macros.h</value>
+			<configuration>42</configuration>
+		</Prop>
+		<Prop id="212" name="@GENERATOR:USER_CONFIG">
+			<value>$(TargetDir)\user_macros.h</value>
+			<configuration>82</configuration>
+		</Prop>
+		<Prop id="215" name="@GENERATOR:PROBES">
+			<value>true</value>
+			<configuration>82</configuration>
+		</Prop>
+		<Prop id="221" name="@REPORTER:SCRIPT">
+			<value>Reporter\ScadeReport.tcl</value>
+			<configuration>42</configuration>
+		</Prop>
+		<Prop id="233" name="@GENERATOR:USER_CONFIG">
+			<value>my_user_macros.h</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="235" name="@GENERATOR:ROOTNODE">
+			<value>FlightControl::FCU</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="236" name="@GENERATOR:NAME_LENGTH">
+			<value>80</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="237" name="@GENERATOR:WR_PERIODIC">
+			<value>false</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="238" name="@GENERATOR:WR_NAME">
+			<value>application_1</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="239" name="@GENERATOR:GENERATOR">
+			<value>C QUAL661</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="240" name="@GENERATOR:CHECK_MODE">
+			<value>-1</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="241" name="@SSMGUI:GUIEXTFILE">
+			<value></value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="242" name="@GENERATOR:OPTLEVEL">
+			<value>2</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="243" name="@GENERATOR:WR_PERIOD">
+			<value>0.02</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="244" name="@GENERATOR:WR_PRIORITY">
+			<value>1</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="245" name="@GENERATOR:EXTENSIONS">
+			<value>VxWorks 653</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="246" name="@GENERATOR:TARGET_DIR">
+			<value>FCU_EmbeddedCode\application_1</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="247" name="@REPORTER:DOCUMENT">
+			<value>FlightControl.rtf</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="248" name="@REPORTER:FORMAT">
+			<value>rtf</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="249" name="@STUDIO:TOOLCONF">
+			<value>DiffAnalyzer</value>
+			<value>42</value>
+			<value>82</value>
+			<value>232</value>
+			<value>252</value>
+			<value>279</value>
+			<value>299</value>
+			<value>364</value>
+			<value>431</value>
+			<value>463</value>
+			<value>510</value>
+			<value>545</value>
+		</Prop>
+		<Prop id="251" name="@GENERATOR:DEBUG">
+			<value>true</value>
+			<configuration>82</configuration>
+		</Prop>
+		<Prop id="254" name="@REPORTER:DOCUMENT">
+			<value>FlightControl.htm</value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="255" name="@GENERATOR:TARGET_DIR">
+			<value>FCU_EmbeddedCode\application_1</value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="256" name="@GENERATOR:EXTENSIONS">
+			<value>VxWorks 653</value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="257" name="@GENERATOR:WR_PRIORITY">
+			<value>1</value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="258" name="@GENERATOR:WR_PERIOD">
+			<value>0.02</value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="259" name="@GENERATOR:OPTLEVEL">
+			<value>2</value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="260" name="@SSMGUI:GUIEXTFILE">
+			<value></value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="261" name="@GENERATOR:CHECK_MODE">
+			<value>-1</value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="262" name="@GENERATOR:GENERATOR">
+			<value>C QUAL661</value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="263" name="@GENERATOR:WR_NAME">
+			<value>application_1</value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="264" name="@GENERATOR:WR_PERIODIC">
+			<value>false</value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="265" name="@GENERATOR:NAME_LENGTH">
+			<value>80</value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="266" name="@GENERATOR:ROOTNODE">
+			<value>FlightControl::FCU</value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="268" name="@GENERATOR:USER_CONFIG">
+			<value>my_user_macros.h</value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="269" name="@STUDIO:SUBTITLE">
+			<value>Simple flight control system, with SCADE Display connection</value>
+		</Prop>
+		<Prop id="275" name="@STUDIO:TOOLCONF">
+			<value>Code Generator</value>
+			<value>42</value>
+			<value>82</value>
+			<value>279</value>
+			<value>299</value>
+			<value>364</value>
+			<value>431</value>
+			<value>463</value>
+		</Prop>
+		<Prop id="276" name="@STUDIO:TOOLCONF">
+			<value>Timing and Stack Verifiers</value>
+			<value>299</value>
+		</Prop>
+		<Prop id="280" name="@GENERATOR:ENABLE_EXTENSIONS">
+			<value>false</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="281" name="@GENERATOR:EXPAND_MODE">
+			<value>2</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="282" name="@GENERATOR:USER_CONFIG">
+			<value>$(TargetDir)\user_macros.h</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="283" name="@REPORTER:SCRIPT">
+			<value>Reporter\ScadeReport.tcl</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="284" name="@GENERATOR:ROOTNODE">
+			<value>FlightControl::FCU</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="285" name="@GENERATOR:NAME_LENGTH">
+			<value>80</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="286" name="@GENERATOR:WR_PERIODIC">
+			<value>false</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="287" name="@GENERATOR:WR_NAME">
+			<value>application_1</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="288" name="@GENERATOR:GENERATOR">
+			<value>C QUAL661</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="289" name="@GENERATOR:CHECK_MODE">
+			<value>-1</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="290" name="@SSMGUI:GUIEXTFILE">
+			<value></value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="291" name="@GENERATOR:OPTLEVEL">
+			<value>2</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="292" name="@GENERATOR:WR_PERIOD">
+			<value>0.02</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="293" name="@GENERATOR:WR_PRIORITY">
+			<value>1</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="294" name="@GENERATOR:TARGET_DIR">
+			<value>$(Configuration)</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="300" name="@GENERATOR:TARGET_DIR">
+			<value>$(Configuration)</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="301" name="@GENERATOR:WR_PRIORITY">
+			<value>1</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="302" name="@GENERATOR:WR_PERIOD">
+			<value>0.02</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="303" name="@GENERATOR:OPTLEVEL">
+			<value>2</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="304" name="@SSMGUI:GUIEXTFILE">
+			<value></value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="305" name="@GENERATOR:CHECK_MODE">
+			<value>-1</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="306" name="@GENERATOR:GENERATOR">
+			<value>C QUAL661</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="307" name="@GENERATOR:WR_NAME">
+			<value>application_1</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="308" name="@GENERATOR:WR_PERIODIC">
+			<value>false</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="309" name="@GENERATOR:NAME_LENGTH">
+			<value>80</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="310" name="@GENERATOR:ROOTNODE">
+			<value>FlightControl::FCU</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="311" name="@REPORTER:SCRIPT">
+			<value>Reporter\ScadeReport.tcl</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="312" name="@GENERATOR:USER_CONFIG">
+			<value>$(TargetDir)\user_macros.h</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="313" name="@GENERATOR:EXPAND_MODE">
+			<value>2</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="319" name="@aiT:VERSION">
+			<value>94038</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="320" name="@aiT:CPU">
+			<value>mpc603e</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="321" name="@aiT:UNIT">
+			<value>MHz</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="322" name="@aiT:BASIC_CLOCK">
+			<value>40</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="333" name="@aiT:SPECIFIED_OPERATORS">
+			<value>mathext::SinR/|0-0</value>
+			<value>mathext::AtanR/|0-0</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="355" name="@aiT:EXTERNAL_FUNCTIONS">
+			<value>sin:518-24;atan:597-24;</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="360" name="@GENERATOR:TARGET_ADAPTOR">
+			<value></value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="362" name="@SIMULATOR:CPU_TYPE">
+			<value></value>
+			<configuration>42</configuration>
+		</Prop>
+		<Prop id="363" name="@SIMULATOR:CPU_TYPE">
+			<value></value>
+			<configuration>82</configuration>
+		</Prop>
+		<Prop id="367" name="@GENERATOR:EXECUTION_PERIODE">
+			<value>0.100000</value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="368" name="@GENERATOR:USER_CONFIG">
+			<value>$(TargetDir)\user_macros.h</value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="369" name="@REPORTER:SCRIPT">
+			<value>Reporter\ScadeDisplayReport.tcl</value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="370" name="@GENERATOR:NAME_LENGTH">
+			<value>80</value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="371" name="@GENERATOR:ROOTNODE">
+			<value>FlightControlSimulation::World</value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="372" name="@SSMGUI:GUIEXTFILE">
+			<value></value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="373" name="@GENERATOR:CHECK_MODE">
+			<value>-1</value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="374" name="@GENERATOR:GENERATOR">
+			<value>C QUAL661</value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="375" name="@GENERATOR:DEBUG">
+			<value>true</value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="377" name="@GNU C:ADD_COMP_OPTIONS">
+			<value>-O2 -pedantic</value>
+			<configuration>42</configuration>
+		</Prop>
+		<Prop id="378" name="@MPC GNU C:ADD_COMP_OPTIONS">
+			<value>-O2 -pedantic</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="379" name="@GNU C:ADD_COMP_OPTIONS">
+			<value>-O2 -pedantic</value>
+			<configuration>82</configuration>
+		</Prop>
+		<Prop id="380" name="@GENERATOR:EXPAND_MODE">
+			<value>2</value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="381" name="@GENERATOR:EXPAND_MODE">
+			<value>2</value>
+			<configuration>42</configuration>
+		</Prop>
+		<Prop id="419" name="@GENERATOR:EXPAND_MODE">
+			<value>2</value>
+			<configuration>82</configuration>
+		</Prop>
+		<Prop id="420" name="@GENERATOR:TARGET_DIR">
+			<value>$(Configuration)</value>
+			<configuration>42</configuration>
+		</Prop>
+		<Prop id="421" name="@GENERATOR:TARGET_DIR">
+			<value>$(Configuration)</value>
+			<configuration>82</configuration>
+		</Prop>
+		<Prop id="422" name="@GENERATOR:TARGET_DIR">
+			<value>$(Configuration)</value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="433" name="@GENERATOR:TARGET_DIR">
+			<value>$(Configuration)</value>
+			<configuration>431</configuration>
+		</Prop>
+		<Prop id="434" name="@GENERATOR:WR_PRIORITY">
+			<value>1</value>
+			<configuration>431</configuration>
+		</Prop>
+		<Prop id="435" name="@GENERATOR:WR_PERIOD">
+			<value>0.02</value>
+			<configuration>431</configuration>
+		</Prop>
+		<Prop id="437" name="@SSMGUI:GUIEXTFILE">
+			<value></value>
+			<configuration>431</configuration>
+		</Prop>
+		<Prop id="438" name="@GENERATOR:CHECK_MODE">
+			<value>-1</value>
+			<configuration>431</configuration>
+		</Prop>
+		<Prop id="439" name="@GENERATOR:GENERATOR">
+			<value>C QUAL661</value>
+			<configuration>431</configuration>
+		</Prop>
+		<Prop id="440" name="@GENERATOR:WR_NAME">
+			<value>application_1</value>
+			<configuration>431</configuration>
+		</Prop>
+		<Prop id="441" name="@GENERATOR:WR_PERIODIC">
+			<value>false</value>
+			<configuration>431</configuration>
+		</Prop>
+		<Prop id="443" name="@GENERATOR:ROOTNODE">
+			<value>Proof::Proof</value>
+			<configuration>431</configuration>
+		</Prop>
+		<Prop id="444" name="@REPORTER:SCRIPT">
+			<value>Reporter\ScadeReport.tcl</value>
+			<configuration>431</configuration>
+		</Prop>
+		<Prop id="445" name="@GENERATOR:USER_CONFIG">
+			<value>$(TargetDir)\user_macros.h</value>
+			<configuration>431</configuration>
+		</Prop>
+		<Prop id="446" name="@GENERATOR:EXPAND_MODE">
+			<value>2</value>
+			<configuration>431</configuration>
+		</Prop>
+		<Prop id="448" name="@GENERATOR:DEBUG">
+			<value>true</value>
+			<configuration>431</configuration>
+		</Prop>
+		<Prop id="457" name="@GENERATOR:TARGET_ADAPTOR">
+			<value>T&amp;S Optimizer</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="458" name="@GENERATOR:DISPLAY_SYNC_PANELS">
+			<value>..\FlightControlDisplay\DemoPFD.sgfx</value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="464" name="@GENERATOR:DISPLAY_SYNC_PANELS">
+			<value>..\FlightControlDisplay\DemoPFD.sgfx</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="465" name="@GENERATOR:TARGET_DIR">
+			<value>$(Configuration)</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="466" name="@GENERATOR:EXPAND_MODE">
+			<value>2</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="469" name="@GENERATOR:GENERATOR">
+			<value>C QUAL661</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="470" name="@GENERATOR:CHECK_MODE">
+			<value>-1</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="471" name="@SSMGUI:GUIEXTFILE">
+			<value></value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="472" name="@GENERATOR:ROOTNODE">
+			<value>FlightControlSimulation::World</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="473" name="@GENERATOR:NAME_LENGTH">
+			<value>80</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="474" name="@REPORTER:SCRIPT">
+			<value>Reporter\ScadeDisplayReport.tcl</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="475" name="@GENERATOR:USER_CONFIG">
+			<value>$(TargetDir)\user_macros.h</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="476" name="@GENERATOR:EXECUTION_PERIODE">
+			<value>0.100000</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="479" name="@GENERATOR:DISPLAY_ASYNC_PANELS">
+			<value>ControlPanel.rgfx</value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="480" name="@GENERATOR:SKIP_UNUSED">
+			<value>true</value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="481" name="@GENERATOR:DISPLAY_ASYNC_PANELS">
+			<value>ControlPanel.rgfx</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="482" name="@GENERATOR:TARGET_ADAPTOR">
+			<value>SCADE Display Co-execution</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="483" name="@GENERATOR:SKIP_UNUSED">
+			<value>true</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="485" name="@GENERATOR:OBSERVE_MODE">
+			<value>4</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="486" name="@GENERATOR:DEBUG">
+			<value>true</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="488" name="@GENERATOR:DISPLAY_DISABLED_PANELS">
+			<value>..\FlightControlDisplay\DemoPFD.sgfx</value>
+			<value>ControlPanel.rgfx</value>
+			<configuration>42</configuration>
+		</Prop>
+		<Prop id="490" name="@GENERATOR:DISPLAY_DISABLED_PANELS">
+			<value>..\FlightControlDisplay\DemoPFD.sgfx</value>
+			<value>ControlPanel.rgfx</value>
+			<configuration>82</configuration>
+		</Prop>
+		<Prop id="492" name="@GENERATOR:DISPLAY_DISABLED_PANELS">
+			<value>..\FlightControlDisplay\DemoPFD.sgfx</value>
+			<value>ControlPanel.rgfx</value>
+			<configuration>431</configuration>
+		</Prop>
+		<Prop id="494" name="@STUDIO:TOOLCONF">
+			<value>Dashboard</value>
+			<value>42</value>
+			<value>82</value>
+			<value>232</value>
+			<value>252</value>
+			<value>279</value>
+			<value>299</value>
+			<value>364</value>
+			<value>431</value>
+			<value>463</value>
+			<value>510</value>
+			<value>545</value>
+		</Prop>
+		<Prop id="498" name="@STUDIO:TOOLCONF">
+			<value>Timing and Stack Tools</value>
+			<value>42</value>
+			<value>82</value>
+			<value>232</value>
+			<value>252</value>
+			<value>279</value>
+			<value>299</value>
+			<value>364</value>
+			<value>431</value>
+			<value>463</value>
+			<value>510</value>
+			<value>545</value>
+		</Prop>
+		<Prop id="499" name="@REPORTER:DisplayKCGPragma">
+			<value>true</value>
+			<configuration>232</configuration>
+		</Prop>
+		<Prop id="500" name="@REPORTER:DisplayKCGPragma">
+			<value>true</value>
+			<configuration>252</configuration>
+		</Prop>
+		<Prop id="507" name="@STUDIO:TOOLCONF">
+			<value>Timing and Stack Analysis Tools</value>
+			<value>299</value>
+		</Prop>
+		<Prop id="508" name="@MPC GNU CMPC603e:ADD_COMP_OPTIONS">
+			<value>-O2 -pedantic</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="509" name="@SIMULATOR:CPU_TYPE">
+			<value>MPC603e</value>
+			<configuration>299</configuration>
+		</Prop>
+		<Prop id="511" name="@REPORTER:DisplayKCGPragma">
+			<value>true</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="512" name="@REPORTER:FORMAT">
+			<value>rtf</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="513" name="@REPORTER:DOCUMENT">
+			<value>FlightControl.rtf</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="514" name="@GENERATOR:TARGET_DIR">
+			<value>FCU_EmbeddedCode\application_1</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="515" name="@GENERATOR:EXTENSIONS">
+			<value>VxWorks 653</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="516" name="@GENERATOR:WR_PRIORITY">
+			<value>1</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="517" name="@GENERATOR:WR_PERIOD">
+			<value>0.02</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="518" name="@GENERATOR:OPTLEVEL">
+			<value>2</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="519" name="@SSMGUI:GUIEXTFILE">
+			<value></value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="520" name="@GENERATOR:CHECK_MODE">
+			<value>-1</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="521" name="@GENERATOR:GENERATOR">
+			<value>C QUAL661</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="522" name="@GENERATOR:WR_NAME">
+			<value>application_1</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="523" name="@GENERATOR:WR_PERIODIC">
+			<value>false</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="524" name="@GENERATOR:NAME_LENGTH">
+			<value>80</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="525" name="@GENERATOR:ROOTNODE">
+			<value>FlightControl::FCU</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="526" name="@GENERATOR:USER_CONFIG">
+			<value>my_user_macros.h</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="527" name="@REPORTER:SCRIPT">
+			<value>Reporter\ScadeQualifiedReport.tcl</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="528" name="@REPORTER:DisplayCalledAndCalling">
+			<value>true</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="529" name="@REPORTER:AllowRowToBreak">
+			<value>true</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="530" name="@REPORTER:cstDisplayType">
+			<value>Flat</value>
+			<configuration>510</configuration>
+		</Prop>
+		<Prop id="531" name="@STUDIO:TOOLCONF">
+			<value>Synchronization</value>
+			<value>42</value>
+			<value>82</value>
+			<value>232</value>
+			<value>252</value>
+			<value>279</value>
+			<value>299</value>
+			<value>364</value>
+			<value>431</value>
+			<value>463</value>
+			<value>510</value>
+			<value>545</value>
+		</Prop>
+		<Prop id="532" name="@STUDIO:TOOLCONF">
+			<value>System Checker</value>
+			<value>42</value>
+			<value>82</value>
+			<value>232</value>
+			<value>252</value>
+			<value>279</value>
+			<value>299</value>
+			<value>364</value>
+			<value>431</value>
+			<value>463</value>
+			<value>510</value>
+			<value>545</value>
+		</Prop>
+		<Prop id="533" name="@STUDIO:TOOLCONF">
+			<value>System Configurator</value>
+			<value>42</value>
+			<value>82</value>
+			<value>232</value>
+			<value>252</value>
+			<value>279</value>
+			<value>299</value>
+			<value>364</value>
+			<value>431</value>
+			<value>463</value>
+			<value>510</value>
+			<value>545</value>
+		</Prop>
+		<Prop id="535" name="@GENERATOR:DISPLAY_ENABLED_PANELS">
+			<value>..\FlightControlDisplay\DemoPFD.sgfx,SCADE Suite Co-simulation</value>
+			<value>ControlPanel.rgfx,SCADE Suite Co-simulation</value>
+			<configuration>364</configuration>
+		</Prop>
+		<Prop id="536" name="@GENERATOR:DISPLAY_ENABLED_PANELS">
+			<value>..\FlightControlDisplay\DemoPFD.sgfx,SCADE Suite Co-simulation</value>
+			<value>ControlPanel.rgfx,SCADE Suite Co-simulation</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="538" name="@STUDIO:TOOLCONF">
+			<value>Test Tool</value>
+			<value>42</value>
+			<value>82</value>
+			<value>232</value>
+			<value>252</value>
+			<value>279</value>
+			<value>299</value>
+			<value>364</value>
+			<value>431</value>
+			<value>463</value>
+			<value>510</value>
+			<value>545</value>
+		</Prop>
+		<Prop id="541" name="@SIMULATOR:CPU_TYPE">
+			<value>win64</value>
+			<configuration>463</configuration>
+		</Prop>
+		<Prop id="542" name="@SIMULATOR:CPU_TYPE">
+			<value>win64</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="543" name="@STUDIO:TOOLCONF">
+			<value>Import/Export</value>
+			<value>42</value>
+			<value>82</value>
+			<value>232</value>
+			<value>252</value>
+			<value>279</value>
+			<value>299</value>
+			<value>364</value>
+			<value>431</value>
+			<value>463</value>
+			<value>510</value>
+			<value>545</value>
+		</Prop>
+		<Prop id="544" name="@STUDIO:TOOLCONF">
+			<value>Metrics and Rules Checker</value>
+			<value>545</value>
+		</Prop>
+		<Prop id="546" name="@SIMULATOR:CPU_TYPE">
+			<value>win64</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="547" name="@GENERATOR:TARGET_ADAPTOR">
+			<value></value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="548" name="@GENERATOR:TARGET_DIR">
+			<value>$(Configuration)</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="549" name="@GENERATOR:WR_PRIORITY">
+			<value>1</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="550" name="@GENERATOR:WR_PERIOD">
+			<value>0.02</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="551" name="@GENERATOR:OPTLEVEL">
+			<value>2</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="552" name="@SSMGUI:GUIEXTFILE">
+			<value></value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="553" name="@GENERATOR:CHECK_MODE">
+			<value>-1</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="554" name="@GENERATOR:GENERATOR">
+			<value>C QUAL661</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="555" name="@GENERATOR:WR_NAME">
+			<value>application_1</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="556" name="@GENERATOR:WR_PERIODIC">
+			<value>false</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="557" name="@GENERATOR:NAME_LENGTH">
+			<value>80</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="558" name="@GENERATOR:ROOTNODE">
+			<value>FlightControl::FCU</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="559" name="@REPORTER:SCRIPT">
+			<value>Reporter\ScadeReport.tcl</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="560" name="@GENERATOR:USER_CONFIG">
+			<value>$(TargetDir)\user_macros.h</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="561" name="@GENERATOR:EXPAND_MODE">
+			<value>2</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="562" name="@GENERATOR:ENABLE_EXTENSIONS">
+			<value>false</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="563" name="@METRICS_RULES:USER_DEF_FILES">
+			<value>$(SCADE)/scripts/MetricRule/DefaultMetrics.py</value>
+			<value>$(SCADE)/scripts/MetricRule/DefaultRules.py</value>
+		</Prop>
+		<Prop id="564" name="@METRICS_RULES:SELECTED_ROOTS">
+			<value>FlightControl</value>
+			<configuration>545</configuration>
+		</Prop>
+		<Prop id="565" name="@METRICS_RULES:RULES_PARAM">
+			<value>SCADE_R001,Coverage</value>
+			<configuration>545</configuration>
+		</Prop>
+	</props>
+	<roots>
+		<Folder id="6" extensions="scade;xscade" name="Model Files">
+			<elements>
+				<FileRef id="41" persistAs="FlightControl.xscade"/>
+				<FileRef id="164" persistAs="FlightControlSimulation.xscade"/>
+				<FileRef id="453" persistAs="Proof.xscade"/>
+			</elements>
+		</Folder>
+		<Folder id="8" extensions="vsp;etp" name="SCADE Libraries">
+			<elements>
+				<FileRef id="10" persistAs="$(SCADE)\libraries\SC65\libmath\libmath.etp"/>
+				<FileRef id="159" persistAs="..\Libraries\libPlane\libPlane.etp"/>
+				<FileRef id="191" persistAs="..\Libraries\libLUT\libLUT.etp"/>
+				<FileRef id="37" persistAs="$(SCADE)\libraries\SC65\libpwlinear\libpwlinear.etp"/>
+				<FileRef id="222" persistAs="$(SCADE)\libraries\SC65\libdigital\libdigital.etp"/>
+				<FileRef id="223" persistAs="$(SCADE)\libraries\SC65\liblinear\liblinear.etp"/>
+				<FileRef id="224" persistAs="$(SCADE)\libraries\SC65\libmathext\libmathext.etp"/>
+				<FileRef id="423" persistAs="$(SCADE)\libraries\SC65\libverif\libverif.etp"/>
+			</elements>
+		</Folder>
+		<Folder id="30" extensions="etp" name="SCADE Display">
+			<elements>
+				<FileRef id="534" persistAs="..\FlightControlDisplay\DemoPFD.etp"/>
+			</elements>
+		</Folder>
+		<Folder id="200" name="Design Verifier File">
+			<elements>
+				<FileRef id="201" persistAs="FlightControl.l4"/>
+			</elements>
+		</Folder>
+		<Folder id="226" extensions="sss" name="Tests Scenarios">
+			<elements>
+				<FileRef id="227" persistAs="..\TestScenarios\FCU_AlarmManager.sss"/>
+				<FileRef id="228" persistAs="..\TestScenarios\FCU_FlightController.sss"/>
+			</elements>
+		</Folder>
+		<Folder id="462" extensions="etp" name="Rapid Prototyper">
+			<elements>
+				<FileRef id="537" persistAs="ControlPanel.etp"/>
+			</elements>
+		</Folder>
+		<Folder id="539" extensions="sdy" name="Graphical Panels Mapping File">
+			<elements>
+				<FileRef id="540" persistAs="FlightControl.sdy"/>
+			</elements>
+		</Folder>
+	</roots>
+	<configurations>
+		<Configuration id="42" name="Simulation"/>
+		<Configuration id="82" name="Coverage"/>
+		<Configuration id="232" name="RTF"/>
+		<Configuration id="252" name="HTML"/>
+		<Configuration id="279" name="KCG"/>
+		<Configuration id="299" name="Timing Optimizer"/>
+		<Configuration id="364" name="Rapid Prototyping"/>
+		<Configuration id="431" name="Proof"/>
+		<Configuration id="463" name="Standalone Executable"/>
+		<Configuration id="510" name="Cert. Reporter"/>
+		<Configuration id="545" name="MetricRule"/>
+	</configurations>
+</Project>
