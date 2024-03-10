@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Operator xmlns="http://www.esterel-technologies.com/ns/scade/6" xmlns:ed="http://www.esterel-technologies.com/ns/scade/pragmas/editor/8" xmlns:kcg="http://www.esterel-technologies.com/ns/scade/pragmas/codegen/3" kind="function" name="COND_RECOVERING_POS_TO_END_RECOVERING">
+	<inputs>
+		<Variable name="SW_IS_SHAFT_POSITION_RECOVERED">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="bool"/>
+					</type>
+				</NamedType>
+			</type>
+			<pragmas>
+				<ed:Variable oid="!ed/1cfb2/5ED0/42A0/64c238982c7e"/>
+			</pragmas>
+		</Variable>
+		<Variable name="SW_IS_VALID_DATA_RECORDED">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="bool"/>
+					</type>
+				</NamedType>
+			</type>
+			<pragmas>
+				<ed:Variable oid="!ed/1cfb3/5ED0/42A0/64c23898363"/>
+			</pragmas>
+		</Variable>
+	</inputs>
+	<outputs>
+		<Variable name="SW_COND_RECOVERING_POS_TO_END_RECOVERING">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="bool"/>
+					</type>
+				</NamedType>
+			</type>
+			<pragmas>
+				<ed:Variable oid="!ed/1cfb0/5ED0/42A0/64c23898736c"/>
+			</pragmas>
+		</Variable>
+	</outputs>
+	<locals>
+		<Variable name="_L6">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="bool"/>
+					</type>
+				</NamedType>
+			</type>
+			<pragmas>
+				<ed:Variable oid="!ed/1cfa9/5ED0/42A0/64c238982642"/>
+			</pragmas>
+		</Variable>
+		<Variable name="_L13">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="bool"/>
+					</type>
+				</NamedType>
+			</type>
+			<pragmas>
+				<ed:Variable oid="!ed/1cfac/5ED0/42A0/64c238981cc7"/>
+			</pragmas>
+		</Variable>
+		<Variable name="_L14">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="bool"/>
+					</type>
+				</NamedType>
+			</type>
+			<pragmas>
+				<ed:Variable oid="!ed/1cfad/5ED0/42A0/64c23898703a"/>
+			</pragmas>
+		</Variable>
+	</locals>
+	<data>
+		<!-- _L6 = _L13 and _L14; -->
+		<Equation>
+			<lefts>
+				<VariableRef name="_L6"/>
+			</lefts>
+			<right>
+				<!-- _L13 and _L14 -->
+				<NAryOp name="1" operator="and">
+					<operands>
+						<IdExpression>
+							<path>
+								<ConstVarRef name="_L13"/>
+							</path>
+						</IdExpression>
+						<IdExpression>
+							<path>
+								<ConstVarRef name="_L14"/>
+							</path>
+						</IdExpression>
+					</operands>
+				</NAryOp>
+			</right>
+			<pragmas>
+				<ed:Equation oid="!ed/1cfa2/5ED0/42A0/64c238985215"/>
+			</pragmas>
+		</Equation>
+		<!-- SW_COND_RECOVERING_POS_TO_END_RECOVERING = _L6; -->
+		<Equation>
+			<lefts>
+				<VariableRef name="SW_COND_RECOVERING_POS_TO_END_RECOVERING"/>
+			</lefts>
+			<right>
+				<IdExpression>
+					<path>
+						<ConstVarRef name="_L6"/>
+					</path>
+				</IdExpression>
+			</right>
+			<pragmas>
+				<ed:Equation oid="!ed/1cfa3/5ED0/42A0/64c238985a08"/>
+			</pragmas>
+		</Equation>
+		<!-- _L13 = SW_IS_SHAFT_POSITION_RECOVERED; -->
+		<Equation>
+			<lefts>
+				<VariableRef name="_L13"/>
+			</lefts>
+			<right>
+				<IdExpression>
+					<path>
+						<ConstVarRef name="SW_IS_SHAFT_POSITION_RECOVERED"/>
+					</path>
+				</IdExpression>
+			</right>
+			<pragmas>
+				<ed:Equation oid="!ed/1cfa4/5ED0/42A0/64c23898714b"/>
+			</pragmas>
+		</Equation>
+		<!-- _L14 = SW_IS_VALID_DATA_RECORDED; -->
+		<Equation>
+			<lefts>
+				<VariableRef name="_L14"/>
+			</lefts>
+			<right>
+				<IdExpression>
+					<path>
+						<ConstVarRef name="SW_IS_VALID_DATA_RECORDED"/>
+					</path>
+				</IdExpression>
+			</right>
+			<pragmas>
+				<ed:Equation oid="!ed/1cfa6/5ED0/42A0/64c2389853ee"/>
+			</pragmas>
+		</Equation>
+	</data>
+	<pragmas>
+		<ed:Operator oid="!ed/1cf9f/5ED0/42A0/64c238983695" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/8">
+			<diagrams>
+				<NetDiagram name="diagram_COND_RECOVERING_POS_TO_END_RECOVERING_1" landscape="true" format="A4 (210 297)" oid="!ed/1cfa8/5ED0/42A0/64c238985be3">
+					<presentationElements>
+						<EquationGE presentable="!ed/1cfa2/5ED0/42A0/64c238985215">
+							<position>
+								<Point x="10530" y="2090"/>
+							</position>
+							<size>
+								<Size width="995" height="969"/>
+							</size>
+						</EquationGE>
+						<EquationGE presentable="!ed/1cfa3/5ED0/42A0/64c238985a08">
+							<position>
+								<Point x="12435" y="2302"/>
+							</position>
+							<size>
+								<Size width="339" height="508"/>
+							</size>
+						</EquationGE>
+						<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/1cfa2/5ED0/42A0/64c238985215" dstEquation="!ed/1cfa3/5ED0/42A0/64c238985a08">
+							<positions>
+								<Point x="11515" y="2582"/>
+								<Point x="11980" y="2582"/>
+								<Point x="11980" y="2582"/>
+								<Point x="12467" y="2582"/>
+							</positions>
+						</Edge>
+						<EquationGE presentable="!ed/1cfa4/5ED0/42A0/64c23898714b">
+							<position>
+								<Point x="9499" y="1931"/>
+							</position>
+							<size>
+								<Size width="254" height="508"/>
+							</size>
+						</EquationGE>
+						<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/1cfa4/5ED0/42A0/64c23898714b" dstEquation="!ed/1cfa2/5ED0/42A0/64c238985215">
+							<positions>
+								<Point x="9758" y="2180"/>
+								<Point x="10139" y="2180"/>
+								<Point x="10139" y="2413"/>
+								<Point x="10520" y="2413"/>
+							</positions>
+						</Edge>
+						<EquationGE presentable="!ed/1cfa6/5ED0/42A0/64c2389853ee">
+							<position>
+								<Point x="9499" y="2699"/>
+							</position>
+							<size>
+								<Size width="264" height="503"/>
+							</size>
+						</EquationGE>
+						<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/1cfa6/5ED0/42A0/64c2389853ee" dstEquation="!ed/1cfa2/5ED0/42A0/64c238985215">
+							<positions>
+								<Point x="9758" y="2963"/>
+								<Point x="10139" y="2963"/>
+								<Point x="10139" y="2752"/>
+								<Point x="10520" y="2752"/>
+							</positions>
+						</Edge>
+					</presentationElements>
+				</NetDiagram>
+			</diagrams>
+		</ed:Operator>
+	</pragmas>
+</Operator>
